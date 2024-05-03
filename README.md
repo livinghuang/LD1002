@@ -60,14 +60,14 @@ Before using the LD1002, please ensure that you have read through this manual th
 5. After obtaining an IP address, open a web browser on your computer.
 6. Enter the IP address of the LD1002 in the address bar of the web browser.
 7. This will open the ChirpStack Server interface.
-   ![LD1002 login view](https://github.com/livinghuang/LD1002/blob/main/pictures/chripstack_login.png?raw=true?raw=true)
+![LD1002 login view](https://github.com/livinghuang/LD1002/blob/main/pictures/chripstack_login.png?raw=true?raw=true)
 8. Log in to the ChirpStack Server interface using your credentials. Default username: "admin" , password: "admin"
 9.  Once logged in, you can access the ChirpStack App Server services.
-    ![LD1002 first view](https://github.com/livinghuang/LD1002/blob/main/pictures/chirpstack_first.png?raw=true?raw=true)
+![LD1002 first view](https://github.com/livinghuang/LD1002/blob/main/pictures/chirpstack_first.png?raw=true?raw=true)
 10. To add the LD1002 Lorawan Gateway as the 1st Lorawan Gateway, use the following Gateway ID: `8888880000000000`.
-    ![LD1002 add gateway](https://github.com/livinghuang/LD1002/blob/main/pictures/chirpstack_add_gateway1.png?raw=true?raw=true)
-    -- set the gateway(you could move the map point to set the gateway location in this stage)
-    ![LD1002 set gateway](https://github.com/livinghuang/LD1002/blob/main/pictures/chirpstack_add_gateway4.png?raw=true?raw=true)
+![LD1002 add gateway](https://github.com/livinghuang/LD1002/blob/main/pictures/chirpstack_add_gateway1.png?raw=true?raw=true)
+-- set the gateway(you could move the map point to set the gateway location in this stage)
+![LD1002 set gateway](https://github.com/livinghuang/LD1002/blob/main/pictures/chirpstack_add_gateway4.png?raw=true?raw=true)
 11. Follow the ChirpStack Server documentation for further configuration and management of devices.
 
 ## Accessing LD1002 via SSH and Editing global_conf.json <a name="accessing-ld1002-via-ssh"></a>
@@ -92,7 +92,7 @@ To configure the LD1002 Lorawan Gateway further, you can SSH into the device and
    vi global_conf.json.sx1250.AS923_1
    ```
 
-    ![LD1002 change gateway id](https://github.com/livinghuang/LD1002/blob/main/pictures/chirpstack_change_gateway_id.png?raw=true?raw=true)
+![LD1002 change gateway id](https://github.com/livinghuang/LD1002/blob/main/pictures/chirpstack_change_gateway_id.png?raw=true?raw=true)
 
 5. Use the arrow keys to navigate through the file, and press `i` to enter insert mode.
 
