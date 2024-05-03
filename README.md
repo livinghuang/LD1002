@@ -60,20 +60,31 @@ Before using the LD1002, please ensure that you have read through this manual th
 5. After obtaining an IP address, open a web browser on your computer.
 6. Enter the IP address of the LD1002 in the address bar of the web browser.
 7. This will open the ChirpStack Server interface.
+   
+   ```bash
+   ```
 
 ![LD1002 login view](https://github.com/livinghuang/LD1002/blob/main/pictures/chripstack_login.png?raw=true?raw=true)
 
 8. Log in to the ChirpStack Server interface using your credentials. Default username: "admin" , password: "admin"
 9.  Once logged in, you can access the ChirpStack App Server services.
 
+   ```bash
+   ```
+
 ![LD1002 first view](https://github.com/livinghuang/LD1002/blob/main/pictures/chirpstack_first.png?raw=true?raw=true)
 
 10.  To add the LD1002 Lorawan Gateway as the 1st Lorawan Gateway, use the following Gateway ID: `8888880000000000`.
+
+   ```bash
+   ```
 
 ![LD1002 add gateway](https://github.com/livinghuang/LD1002/blob/main/pictures/chirpstack_add_gateway1.png?raw=true?raw=true)
 
 -- set the gateway(you could move the map point to set the gateway location in this stage)
 
+   ```bash
+   ```
 ![LD1002 set gateway](https://github.com/livinghuang/LD1002/blob/main/pictures/chirpstack_add_gateway4.png?raw=true?raw=true)
 
 11.  Follow the ChirpStack Server documentation for further configuration and management of devices.
