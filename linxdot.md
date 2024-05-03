@@ -12,6 +12,7 @@
   - [Installation ](#installation-)
   - [Operation Instructions ](#operation-instructions-)
   - [Accessing LD1002 via SSH and Editing global\_conf.json ](#accessing-ld1002-via-ssh-and-editing-global_confjson-)
+  - [Hardware Information](#hardware-information)
   - [Troubleshooting ](#troubleshooting-)
   - [Maintenance ](#maintenance-)
   - [Safety Guidelines ](#safety-guidelines-)
@@ -108,6 +109,39 @@ To configure the LD1002 Lorawan Gateway further, you can SSH into the device and
 
 Now, your LD1002 Lorawan Gateway is configured with the updated settings specified in the `global_conf.json` file.
 These instructions provide a step-by-step guide for customers to SSH into the LD1002, edit the `global_conf.json` file using the vi editor, and restart the Lorawan Gateway service to apply the changes.
+
+## Hardware Information
+
+**Design**
+- ABS plastic enclosure
+- 190 x 190 x 50 mm
+- 512 grams
+
+**Connectivity**
+- Bluetooth 5.0, BLE
+- 802.11 b/g/n/ac WiFi
+- 1Gbps Ethernet
+- Semtech SX1302/SX1303 LoRa concentrator
+
+**Antenna**
+- 3dBi LoRa antenna included, higher dBi options available
+- 27dBm Tx power
+- RP-SMA female connector, allowing future upgrades and outdoor installations (outdoor enclosure available separately)
+
+**SoC**
+- Custom board design based on Rockchip RK3566
+- Quad-Core CPU up to 1.8Ghz
+- ATECC608 secure element
+
+**RAM & Storage**
+- 2GB
+
+ RAM
+- 32GB eMMC storage
+
+**Power**
+- Universal power supply (EU, UK, US, AU)
+- Low power use – 5W at peak
 
 ## Troubleshooting <a name="troubleshooting"></a>
 
