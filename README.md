@@ -22,7 +22,7 @@
 
 Welcome to the Linxdot LD1002 Operations Manual! This document is designed to provide you with all the necessary information to effectively and safely use the LD1002 Lorawan Gateway pre-installed with ChirpStack Server.
 
-![LD1002 open view](https://github.com/livinghuang/LD1002/blob/main/pictures/front.png?raw=true?raw=true)
+![LD1002 open view](https://github.com/livinghuang/LD1002/blob/main/pictures/open.png?raw=true?raw=true)
 
 LD1002 with those interface:
   - RJ45
