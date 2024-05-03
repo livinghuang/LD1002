@@ -1,5 +1,7 @@
 # Linxdot LD1002 Operations Manual
 
+![LD1002 BOX](https://github.com/livinghuang/LD1002/blob/main/pictures/front.png?raw=true?raw=true)
+
 ## Table of Contents
 
 - [Linxdot LD1002 Operations Manual](#linxdot-ld1002-operations-manual)
@@ -19,6 +21,15 @@
 
 Welcome to the Linxdot LD1002 Operations Manual! This document is designed to provide you with all the necessary information to effectively and safely use the LD1002 Lorawan Gateway pre-installed with ChirpStack Server.
 
+![LD1002 open view](https://github.com/livinghuang/LD1002/blob/main/pictures/front.png?raw=true?raw=true)
+
+LD1002 with those interface:
+  - RJ45
+  - USB
+  - LORA ANTENNA
+
+![LD1002 back view](https://github.com/livinghuang/LD1002/blob/main/pictures/back.png?raw=true?raw=true)
+
 ## Getting Started <a name="getting-started"></a>
 
 Before using the LD1002, please ensure that you have read through this manual thoroughly. Familiarize yourself with the product components and follow the installation instructions provided below.
@@ -29,12 +40,15 @@ Before using the LD1002, please ensure that you have read through this manual th
 - Power Adapter
 - Antennas
 
+![LD1002 contents view](https://github.com/livinghuang/LD1002/blob/main/pictures/contents.png?raw=true?raw=true)
+
 ## Installation <a name="installation"></a>
 
 1. Connect the LD1002 to power using the provided power adapter.
 2. Connect the LD1002 to your network using the Ethernet cable.
 3. Attach the antennas to the designated ports on the LD1002.
 
+![LD1002 running view](https://github.com/livinghuang/LD1002/blob/main/pictures/running.png?raw=true?raw=true)
 
 ## Operation Instructions <a name="operation-instructions"></a>
 
@@ -45,9 +59,14 @@ Before using the LD1002, please ensure that you have read through this manual th
 5. After obtaining an IP address, open a web browser on your computer.
 6. Enter the IP address of the LD1002 in the address bar of the web browser.
 7. This will open the ChirpStack Server interface.
-8. Log in to the ChirpStack Server interface using your credentials.
-9. Once logged in, you can access the ChirpStack App Server services.
+   ![LD1002 login view](https://github.com/livinghuang/LD1002/blob/main/pictures/chripstack_login.png?raw=true?raw=true)
+8. Log in to the ChirpStack Server interface using your credentials. Default username: "admin" , password: "admin"
+9.  Once logged in, you can access the ChirpStack App Server services.
+    ![LD1002 first view](https://github.com/livinghuang/LD1002/blob/main/pictures/chirpstack_first.png?raw=true?raw=true)
 10. To add the LD1002 Lorawan Gateway as the 1st Lorawan Gateway, use the following Gateway ID: `8888880000000000`.
+    ![LD1002 add gateway](https://github.com/livinghuang/LD1002/blob/main/pictures/chirpstack_add_gateway1.png?raw=true?raw=true)
+    -- set the gateway(you could move the map point to set the gateway location in this stage)
+    ![LD1002 set gateway](https://github.com/livinghuang/LD1002/blob/main/pictures/chirpstack_add_gateway4.png?raw=true?raw=true)
 11. Follow the ChirpStack Server documentation for further configuration and management of devices.
 
 ## Accessing LD1002 via SSH and Editing global_conf.json <a name="accessing-ld1002-via-ssh"></a>
@@ -71,6 +90,8 @@ To configure the LD1002 Lorawan Gateway further, you can SSH into the device and
    ```bash
    vi global_conf.json.sx1250.AS923_1
    ```
+
+    ![LD1002 change gateway id](https://github.com/livinghuang/LD1002/blob/main/pictures/chirpstack_change_gateway_id.png?raw=true?raw=true)
 
 5. Use the arrow keys to navigate through the file, and press `i` to enter insert mode.
 
