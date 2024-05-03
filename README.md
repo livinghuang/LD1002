@@ -66,8 +66,8 @@ Before using the LD1002, please ensure that you have read through this manual th
 
 ![LD1002 login view](https://github.com/livinghuang/LD1002/blob/main/pictures/chripstack_login.png?raw=true?raw=true)
 
-8. Log in to the ChirpStack Server interface using your credentials. Default username: "admin" , password: "admin"
-9.  Once logged in, you can access the ChirpStack App Server services.
+1. Log in to the ChirpStack Server interface using your credentials. Default username: "admin" , password: "admin"
+2.  Once logged in, you can access the ChirpStack App Server services.
 
    ```bash
    ```
